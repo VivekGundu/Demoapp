@@ -1,0 +1,171 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    padding:  50px;
+    background-color:rgb(115, 170, 233);
+    padding-top: 20px;
+    
+}
+
+
+.navbar-nav li a{
+    color: rgb(60, 60, 220) !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-nav li a:hover{
+    color: red !important;
+    font-size: 22px;
+    text-decoration: underline;
+}
+.navbar-nav li a.active{
+    color: rgb(209, 126, 72) !important;
+    font-size: 23px;
+    
+ }
+.video-contanier{
+    text-align: center;
+    size-adjust: auto;
+    
+}
+.video-contanier video{
+    width: 1090px;
+}
+
+
+
+.text{
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background:rgb(115, 170, 233);
+}
+
+
+.animate-charcter
+{
+    
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 100px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.services-section{
+    padding: 50px ;
+}
+.services-section .card{
+    overflow: hidden;
+}
+.services-section h1{
+    text-align: center;
+    color: blueviolet;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+.services-section h2{
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+}
+.services-section .card .service-img{
+    overflow:hidden;
+    height: 160px;
+    text-align: center;
+    
+}
+.services-section .card .service-img-2{
+    overflow: hidden;
+    height: 180px;
+}
+.services-section .card .service-img3{
+    overflow: hidden;    
+}
+
+.btn-style{
+    color:white;
+    background-image: linear-gradient(90deg, blue,blueviolet);
+    font-weight: 500px;
+    padding: 10px 20px;
+    border-bottom-left-radius: 30px;/* CSS3 */
+    border-top-right-radius: 30px;/* CSS3 */
+    border-bottom: 3px solid whitesmoke ;/* CSS3 */
+    border-left:3px solid white ;/* CSS3 */
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 0px 3px 10px 0px blueviolet;/* CSS3 */
+   }
+   .btn-style:hover{
+       color: white;
+    background-image: linear-gradient(90deg, blueviolet,blue);
+   
+   }
+   .textofcards{
+    text-decoration: #ff1361;
+   }
+
+
+
+   .animate-char
+{
+    
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 25px;
+}
+.maps{
+    display: flow-root;
+}
